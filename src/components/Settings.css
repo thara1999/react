@@ -1,0 +1,52 @@
+/* Settings.css */
+.settings {
+    position: relative;
+    padding: 20px;
+    width: 100vw; /* Full viewport width */
+    height: 100vh; /* Full viewport height */
+    background: url('https://files.tecnoblog.net/wp-content/uploads/2021/12/melhor-streaming-2021-netflix-1.jpg') no-repeat center center fixed; /* Full-size background image */
+    background-size: cover; /* Cover the entire viewport */
+    box-sizing: border-box;
+    color: #fff; /* Text color for readability */
+  }
+  
+  /* Header styling */
+  .settings h2 {
+    font-size: 2rem; /* Adjust font size */
+    margin-bottom: 20px;
+    color: #fff; /* Text color to contrast with the background */
+  }
+  
+  /* Label styling */
+  .settings label {
+    font-size: 1.2rem; /* Slightly larger font size */
+    color: #fff; /* Text color to contrast with the background */
+  }
+  
+  /* Select dropdown styling */
+  .settings select {
+    font-size: 1rem; /* Smaller font size */
+    margin-left: 10px;
+    padding: 10px;
+    border: 1px solid #ccc; /* Border around the select */
+    border-radius: 4px; /* Rounded corners */
+    background-color: #fff; /* White background */
+    color: #333; /* Dark text color for readability */
+  }
+  
+  /* Responsive design for smaller screens */
+  @media (max-width: 768px) {
+    .settings h2 {
+      font-size: 1.5rem; /* Smaller font size for headers */
+    }
+  
+    .settings label {
+      font-size: 1rem; /* Adjust font size for labels */
+    }
+  
+    .settings select {
+      font-size: 0.9rem; /* Adjust font size for select dropdown */
+      width: 100%; /* Full width for select dropdown */
+    }
+  }
+  

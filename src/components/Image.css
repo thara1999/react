@@ -1,0 +1,37 @@
+/* Image.css */
+.image-screen {
+    position: relative;
+    width: 100vw; /* Full viewport width */
+    height: 100vh; /* Full viewport height */
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Avoid repeating the image */
+  }
+  
+  .live-bg {
+    background-image: url('https://forumstatic.oneplusmobile.com/opforum-gl/upload/image/front/thread/20220615/2020211/1089239448598085638/1089239448598085638.jpg');
+  }
+  
+  .movies-bg {
+    background-image: url('https://w0.peakpx.com/wallpaper/257/365/HD-wallpaper-jenna-ortega-as-wednesday-addams-netflix-series-movies.jpg');
+  }
+  
+  .sports-bg {
+    background-image: url('https://i0.wp.com/www.thewrap.com/wp-content/uploads/2023/01/Netflix-Live-Sports.jpg?fit=1200%2C675&ssl=1');
+  }
+  
+  .tvshows-bg {
+    background-image: url('https://decider.com/wp-content/uploads/2020/02/netflix-10-.jpg?quality=75&strip=all&w=978&h=652&crop=1');
+  }
+  
+  .image-shadow {
+    position: absolute;
+    bottom: 20px; /* Position at the bottom */
+    left: 20px; /* Add padding from left */
+    padding: 20px; /* Add padding */
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    color: #fff; /* White text color for readability */
+    font-size: 24px; /* Adjust font size */
+    border-radius: 8px; /* Rounded corners */
+  }
+  

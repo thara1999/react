@@ -1,0 +1,25 @@
+#root {
+  padding: 2rem;
+  max-width: 100%; /* Allow full width */
+  margin: 0; /* Remove centering */
+}
+
+/* App.css */
+.menu-page {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.menu-page .black-shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 30%;
+  background: rgba(0, 0, 0, 0.5); /* Adjust opacity as needed */
+}
+

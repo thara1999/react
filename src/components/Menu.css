@@ -1,0 +1,70 @@
+/* General Styles for the Navbar */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw; /* Full viewport width */
+    padding: 10px 20px; /* Adjust padding */
+    z-index: 1000; /* Ensure navbar stays above other content */
+    background-color: rgba(13, 155, 117, 0.877); /* Semi-transparent background */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional shadow for better visibility */
+  }
+  
+  /* Flexbox layout for the list */
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: center; /* Center the items horizontally */
+  }
+  
+  /* Style for each list item */
+  .navbar li {
+    margin: 0 15px; /* Space between items */
+  }
+  
+  /* Style for the links */
+  .navbar a {
+    color: #0e0e0e; /* Link color */
+    text-decoration: none; /* Remove underline */
+    font-size: 18px; /* Font size */
+    padding: 10px 15px; /* Padding around links */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+  }
+  
+  /* Hover effect for links */
+  .navbar a:hover {
+    background-color: hsl(0, 6%, 93%); /* Light background on hover */
+    color: #114174; /* Change text color on hover */
+    border-radius: 25px; /* Rounded corners */
+  }
+  
+  /* Active link styling (optional) */
+  .navbar a.active {
+    background-color: #114174; /* Active link background */
+    color: #ffffff; /* Active link text color */
+    border-radius: 25px; /* Rounded corners */
+  }
+  
+  /* Style for the settings link */
+  .navbar .settings-link {
+    margin-left: auto; /* Pushes the settings link to the right */
+  }
+  
+  /* Responsive adjustments for smaller screens */
+  @media (max-width: 768px) {
+    .navbar ul {
+      flex-direction: column; /* Stack items vertically on small screens */
+      align-items: center; /* Center items horizontally */
+    }
+  
+    .navbar li {
+      margin: 10px 0; /* Space between items */
+    }
+  
+    .navbar .settings-link {
+      margin-left: 0; /* Remove margin on small screens */
+    }
+  }
+  
