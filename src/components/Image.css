@@ -1,11 +1,11 @@
 /* Image.css */
 .image-screen {
     position: relative;
-    width: 100vw; /* Full viewport width */
-    height: 100vh; /* Full viewport height */
-    background-size: cover; /* Cover the entire viewport */
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Avoid repeating the image */
+    width: 100vw; 
+    height: 100vh;
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
   }
   
   .live-bg {
@@ -26,12 +26,12 @@
   
   .image-shadow {
     position: absolute;
-    bottom: 20px; /* Position at the bottom */
-    left: 20px; /* Add padding from left */
-    padding: 20px; /* Add padding */
-    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
-    color: #fff; /* White text color for readability */
-    font-size: 24px; /* Adjust font size */
-    border-radius: 8px; /* Rounded corners */
+    bottom: 20px; 
+    left: 20px; 
+    padding: 20px; 
+    background: rgba(0, 0, 0, 0.5); 
+    color: #fff; 
+    font-size: 24px;
+    border-radius: 8px; 
   }
   

@@ -7,20 +7,20 @@
     background: url('https://files.tecnoblog.net/wp-content/uploads/2021/12/melhor-streaming-2021-netflix-1.jpg') no-repeat center center fixed; /* Full-size background image */
     background-size: cover; /* Cover the entire viewport */
     box-sizing: border-box;
-    color: #fff; /* Text color for readability */
+    color: #fff; 
   }
   
   /* Header styling */
   .settings h2 {
-    font-size: 2rem; /* Adjust font size */
+    font-size: 2rem; 
     margin-bottom: 20px;
-    color: #fff; /* Text color to contrast with the background */
+    color: #fff; 
   }
   
   /* Label styling */
   .settings label {
-    font-size: 1.2rem; /* Slightly larger font size */
-    color: #fff; /* Text color to contrast with the background */
+    font-size: 1.2rem; 
+    color: #fff; 
   }
   
   /* Select dropdown styling */

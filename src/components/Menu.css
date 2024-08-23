@@ -6,7 +6,7 @@
     width: 100vw; /* Full viewport width */
     padding: 10px 20px; /* Adjust padding */
     z-index: 1000; /* Ensure navbar stays above other content */
-    background-color: rgba(13, 155, 117, 0.877); /* Semi-transparent background */
+    background-color: rgba(64, 237, 191, 0.877);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional shadow for better visibility */
   }
   
@@ -42,7 +42,7 @@
   
   /* Active link styling (optional) */
   .navbar a.active {
-    background-color: #114174; /* Active link background */
+    background-color: #347bc7; /* Active link background */
     color: #ffffff; /* Active link text color */
     border-radius: 25px; /* Rounded corners */
   }
